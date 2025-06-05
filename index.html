@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nepali Thali - Authentic Nepali Cuisine in Thimphu</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Himalayan Thali</h1>
+                <p>Authentic Nepali Taste in Thimphu</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#" class="active" data-page="home">Home</a></li>
+                    <li><a href="#" data-page="about">About Us</a></li>
+                    <li><a href="#" data-page="menu">Menu</a></li>
+                    <li><a href="#" data-page="services">Services</a></li>
+                    <li><a href="#" data-page="contact">Contact</a></li>
+                </ul>
+                <div class="mobile-menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Home Page -->
+        <section class="page active" id="home">
+            <div class="hero">
+                <div class="hero-content">
+                    <h2>Nepali Thali corner</h2>
+                    <p>Traditional Nepali Thali served with love in the heart of Thimphu</p>
+                    <a href="#" class="btn" data-page="menu">View Our Menu</a>
+                </div>
+            </div>
+
+            <div class="features">
+                <div class="container">
+                    <div class="feature-box">
+                        <i class="fas fa-utensils"></i>
+                        <h3>Authentic Recipes</h3>
+                        <p>Traditional recipes passed down through generations</p>
+                    </div>
+                    <div class="feature-box">
+                        <i class="fas fa-leaf"></i>
+                        <h3>Fresh Ingredients</h3>
+                        <p>Locally sourced, fresh ingredients for the best taste</p>
+                    </div>
+                    <div class="feature-box">
+                        <i class="fas fa-heart"></i>
+                        <h3>Made with Love</h3>
+                        <p>Every dish prepared with care and passion</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonials">
+                <h2>What Our Customers Say</h2>
+                <div class="container">
+                    <div class="testimonial">
+                        <p>"The best Nepali food I've had outside of Nepal! The flavors are incredible."</p>
+                        <div class="customer">- Dorji Wangchuk</div>
+                    </div>
+                    <div class="testimonial">
+                        <p>"The thali reminds me of my grandmother's cooking. So authentic!"</p>
+                        <div class="customer">- Pema Lhamo</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Page -->
+        <section class="page" id="about">
+            <div class="container">
+                <h2>Our Story</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Welcome to Himalayan Thali, where we bring the authentic flavors of Nepal to the beautiful city of Thimphu, Bhutan.</p>
+                        <p>Founded in 2023 by [Your Name], our restaurant was born out of a passion for sharing the rich culinary traditions of Nepal with our Bhutanese neighbors.</p>
+                        <p>Having grown up in [Your Hometown] Nepal, I learned the art of Nepali cooking from my mother and grandmother. After moving to Bhutan and noticing the lack of authentic Nepali cuisine, I decided to bring these cherished family recipes to Thimphu.</p>
+                        <p>Every dish at Himalayan Thali is prepared with the same love and care as it would be in a Nepali home. We use traditional cooking methods and source the freshest ingredients to ensure an authentic experience.</p>
+                        <p>Our mission is to create a bridge between Nepali and Bhutanese cultures through food, fostering understanding and appreciation between our two Himalayan nations.</p>
+                    </div>
+                    <div class="about-image">
+                        <img src="C:\Users\user\Desktop\Nepali Thali\2.jpg" alt="Nepali Thali">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Menu Page -->
+        <section class="page" id="menu">
+            <div class="container">
+                <h2>Our Menu</h2>
+                <p class="menu-intro">All our thalis are served with rice, dal, seasonal vegetables, pickles, papad, and dessert</p>
+                
+                <div class="menu-tabs">
+                    <button class="tab-btn active" data-category="thali">Thali Specials</button>
+                    <button class="tab-btn" data-category="appetizers">Appetizers</button>
+                    <button class="tab-btn" data-category="drinks">Drinks</button>
+                </div>
+                
+                <div class="menu-category active" data-category="thali">
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h3>Classic Nepali Thali</h3>
+                            <span class="price">Nu. 250</span>
+                        </div>
+                        <p>Our signature thali with gundruk, aloo tama, chicken curry, and homemade achar</p>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h3>Vegetarian Thali</h3>
+                            <span class="price">Nu. 200</span>
+                        </div>
+                        <p>Delicious vegetarian option with dal, saag, mixed vegetables, and paneer</p>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h3>Newari Thali</h3>
+                            <span class="price">Nu. 280</span>
+                        </div>
+                        <p>Special Newari cuisine with bara, choila, beaten rice, and local specialties</p>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h3>Mountain Thali</h3>
+                            <span class="price">Nu. 300</span>
+                        </div>
+                        <p>Hearty thali with dhindo, gundruk ko jhol, and Himalayan meat dishes</p>
+                    </div>
+                </div>
+                
+                <div class="menu-category" data-category="appetizers">
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h3>Momo (Steamed Dumplings)</h3>
+                            <span class="price">Nu. 120</span>
+                        </div>
+                        <p>Chicken, pork, or vegetable options available</p>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h3>Sel Roti</h3>
+                            <span class="price">Nu. 50</span>
+                        </div>
+                        <p>Traditional Nepali rice doughnut (2 pieces)</p>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h3>Chatamari</h3>
+                            <span class="price">Nu. 100</span>
+                        </div>
+                        <p>Nepali rice crepe with minced meat or egg topping</p>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h3>Aloo Chop</h3>
+                            <span class="price">Nu. 80</span>
+                        </div>
+                        <p>Spiced potato patties deep fried to perfection</p>
+                    </div>
+                </div>
+                
+                <div class="menu-category" data-category="drinks">
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h3>Chiya (Nepali Tea)</h3>
+                            <span class="price">Nu. 40</span>
+                        </div>
+                        <p>Spiced milk tea with cardamom and ginger</p>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h3>Tongba</h3>
+                            <span class="price">Nu. 150</span>
+                        </div>
+                        <p>Traditional fermented millet drink (served hot)</p>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h3>Lassi</h3>
+                            <span class="price">Nu. 80</span>
+                        </div>
+                        <p>Sweet or salty yogurt drink</p>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h3>Local Fruit Juice</h3>
+                            <span class="price">Nu. 90</span>
+                        </div>
+                        <p>Seasonal fresh fruit juice</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Page -->
+        <section class="page" id="services">
+            <div class="container">
+                <h2>Our Services</h2>
+                
+                <div class="services-grid">
+                    <div class="service-card">
+                        <i class="fas fa-utensils"></i>
+                        <h3>Dine-In Experience</h3>
+                        <p>Enjoy our authentic Nepali thali in our cozy restaurant with traditional decor and warm hospitality.</p>
+                    </div>
+                    
+                    <div class="service-card">
+                        <i class="fas fa-truck"></i>
+                        <h3>Takeaway & Delivery</h3>
+                        <p>Can't visit us? We offer takeaway and delivery services throughout Thimphu.</p>
+                    </div>
+                    
+                    <div class="service-card">
+                        <i class="fas fa-calendar-alt"></i>
+                        <h3>Catering Services</h3>
+                        <p>Planning an event? Let us cater with authentic Nepali cuisine for your special occasions.</p>
+                    </div>
+                    
+                    <div class="service-card">
+                        <i class="fas fa-users"></i>
+                        <h3>Cooking Classes</h3>
+                        <p>Learn to cook Nepali dishes with our monthly cooking workshops.</p>
+                    </div>
+                    
+                    <div class="service-card">
+                        <i class="fas fa-gift"></i>
+                        <h3>Special Events</h3>
+                        <p>Join us for cultural nights with live Nepali music and special festival menus.</p>
+                    </div>
+                    
+                    <div class="service-card">
+                        <i class="fas fa-box"></i>
+                        <h3>Meal Subscriptions</h3>
+                        <p>Subscribe to our weekly thali service for regular deliveries to your home or office.</p>
+                    </div>
+                </div>
+                
+                <div class="service-hours">
+                    <h3>Opening Hours</h3>
+                    <ul>
+                        <li><span>Monday - Friday:</span> 11:00 AM - 9:00 PM</li>
+                        <li><span>Saturday:</span> 11:00 AM - 10:00 PM</li>
+                        <li><span>Sunday:</span> 11:00 AM - 8:00 PM</li>
+                    </ul>
+                    <p class="note">* Delivery available until 8:30 PM daily</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Page -->
+        <section class="page" id="contact">
+            <div class="container">
+                <h2>Contact Us</h2>
+                
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <h3>Get in Touch</h3>
+                        <p><i class="fas fa-map-marker-alt"></i> Norzin Lam, Thimphu, Bhutan</p>
+                        <p><i class="fas fa-phone"></i> +975 17 123 456</p>
+                        <p><i class="fas fa-envelope"></i> info@himalayanthali.bt</p>
+                        
+                        <div class="social-links">
+                            <h3>Follow Us</h3>
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-whatsapp"></i></a>
+                        </div>
+                        
+                        <div class="map">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14130.857353934944!2d89.6306634!3d27.4711976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e1941a778481a5%3A0x8a584bfcedeb7f0!2sThimphu%2C%20Bhutan!5e0!3m2!1sen!2sus!4v1620000000000!5m2!1sen!2sus" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form">
+                        <h3>Send Us a Message</h3>
+                        <form id="messageForm">
+                            <div class="form-group">
+                                <label for="name">Your Name</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="phone">Phone (optional)</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <input type="text" id="subject" name="subject" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Himalayan Thali</h3>
+                    <p>Bringing authentic Nepali cuisine to Thimphu, Bhutan since 2023.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#" data-page="home">Home</a></li>
+                        <li><a href="#" data-page="menu">Menu</a></li>
+                        <li><a href="#" data-page="services">Services</a></li>
+                        <li><a href="#" data-page="contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <p>Norzin Lam, Thimphu</p>
+                    <p>+975 17 123 456</p>
+                    <p>info@himalayanthali.bt</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 Himalayan Thali. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
